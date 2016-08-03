@@ -242,7 +242,23 @@ footer {
 }
 
 .mail{
-    font-size:150%;
+    font-size:125%;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #a4a4a4;
+    margin: 1em 0;
+    padding: 0;
+    opacity:0.4;
+}
+li{
+    display:inline-block;
+    float:right;
+}
+.code{
+    padding-top:8px;
 }
 
 
