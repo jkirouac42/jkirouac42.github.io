@@ -40,6 +40,7 @@ body {
 .headpic{
     margin-bottom:50px;
     padding-left:125px;
+   
       
 }
 
@@ -85,6 +86,9 @@ header.carousel .fill {
     margin-bottom:25px;
     
 }
+.row4{
+    height:240px;
+}
 
 .gitpic1 {
     background-image: url('../mac keyboard2.jpg');
@@ -114,7 +118,7 @@ header.carousel .fill {
 }
 
 .gitpic2 {
-    background-image: url('../Hogwarts_Castle.png');
+    background-image: url('../Hogwarts_Castle_in_the_Daethly_Hallows3.png');
     height: 250px;
     color: #ffffff;
     text-align: center;
@@ -169,8 +173,23 @@ header.carousel .fill {
     float:right;
 }*/
 
-.gitpic4{
-    float:right;
+.project{
+    padding-left:50px;
+    padding-bottom:20px;
+    color:#808080;
+}
+
+.SQR{
+   float:left;
+   padding-left:35px;
+}
+.SQR1{
+  float:left;
+  padding-left:17px;
+}
+
+.gitpic4 {
+    object-position:center;
 }
 .gitpic4:hover {
     color:#ffffff;
@@ -178,6 +197,19 @@ header.carousel .fill {
 
 }
 .gitpic4:active{
+    height:240px;
+    margin-top:2px;
+}
+
+.gitpic5{
+    float:right;
+}
+.gitpic5:hover {
+    color:#ffffff;
+    text-decoration:none;
+
+}
+.gitpic5:active{
     height:240px;
     margin-top:2px;
 }
@@ -227,7 +259,7 @@ footer {
 }
 
 .foot{
-    font-size:250%;
+    font-size:130%;
     float: right;
 }
 
