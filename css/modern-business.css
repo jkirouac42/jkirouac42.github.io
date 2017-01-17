@@ -33,15 +33,16 @@ body {
 
 .img-portfolio {
     margin-bottom: 30px;
-    
+
 }
 
 
 .headpic{
     margin-bottom:50px;
     padding-left:125px;
-   
-      
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .About{
@@ -74,7 +75,7 @@ header.carousel .fill {
 
 .text{
     color:#808080;
-    
+    text-align: center;
 }
 
 
@@ -84,7 +85,7 @@ header.carousel .fill {
 
 .row2{
     margin-bottom:25px;
-    
+
 }
 .row4{
     height:240px;
@@ -98,7 +99,7 @@ header.carousel .fill {
     display: block;
     font-size:200%;
     padding-top:100px;
-    
+
 }
 .gitpic1 div{
     background-color:rgba(51, 44, 44, 0.49);
@@ -292,6 +293,3 @@ li{
 .code{
     padding-top:8px;
 }
-
-
-
