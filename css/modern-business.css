@@ -29,7 +29,9 @@ body {
     background-attachment:fixed;
 }
 
-
+.greeting{
+  text-align: center;
+}
 
 .img-portfolio {
     margin-bottom: 30px;
@@ -38,11 +40,13 @@ body {
 
 
 .headpic{
-    margin-bottom:50px;
+
+text-align: center;
+  /*  margin-bottom:50px;
     padding-left:125px;
     margin-left: auto;
     margin-right: auto;
-
+*/
 }
 
 .About{
@@ -75,7 +79,7 @@ header.carousel .fill {
 
 .text{
     color:#808080;
-    text-align: center;
+    text-align: left;
 }
 
 
