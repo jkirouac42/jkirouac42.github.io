@@ -40,13 +40,7 @@ body {
 
 
 .headpic{
-
 text-align: center;
-  /*  margin-bottom:50px;
-    padding-left:125px;
-    margin-left: auto;
-    margin-right: auto;
-*/
 }
 
 .About{
@@ -174,41 +168,17 @@ header.carousel .fill {
 
 }
 
-/*.gitpic4{
-    float:right;
-}*/
-
 .project{
+  text-align: center;
     padding-left:50px;
     padding-bottom:20px;
     color:#808080;
 }
 
-.SQR{
-   float:left;
-   padding-left:35px;
-}
-.SQR1{
-  float:left;
-  padding-left:17px;
-}
-
-.gitpic4 {
-    object-position:center;
-}
-.gitpic4:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic4:active{
-    height:240px;
-    margin-top:2px;
-}
-
 .gitpic5{
-    float:right;
+  text-align: center;
 }
+
 .gitpic5:hover {
     color:#ffffff;
     text-decoration:none;
@@ -268,15 +238,9 @@ footer {
     float: right;
 }
 
-@media(max-width:767px) {
-    .img-portfolio {
-        margin-bottom: 15px;
-    }
-
     header.carousel .carousel {
         height: 70%;
     }
-}
 
 .mail{
     font-size:125%;
