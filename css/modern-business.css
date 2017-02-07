@@ -9,19 +9,23 @@
 html,
 body {
     height: 100%;
-    margin-left: 3px;
-    margin-right: 2px;
     background-image: url('../white texture.jpg');
-    background-size: cover;
     font-family:'Oxygen',sans-serif;
     background-attachment:fixed;
     font-size:105%;
 }
 
-body {
-    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+#mycarousel{
+  width:100%
 }
 
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    display: block;
+    height: auto;
+    line-height: 1;
+    margin: 0 auto;
+    max-width: 100%;
+}
 
 .well {
     background-image: url('../white texture.jpg');
@@ -30,7 +34,7 @@ body {
 }
 
 .greeting{
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .img-portfolio {
@@ -40,12 +44,12 @@ body {
 
 
 .headpic{
-text-align: center;
+/*text-align: center;*/
 }
 
 .About{
     float:right;
-    margin-left:0px;
+    /*margin-left:0px;*/
 }
 
 .img-hover:hover {
@@ -233,7 +237,7 @@ footer {
     }
 }
 
-.foot{
+.foot{w
     font-size:130%;
     float: right;
 }
@@ -260,4 +264,29 @@ li{
 }
 .code{
     padding-top:8px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  body{
+    width:100%;
+  }
+.text{
+  width: 100%;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)
+  body{
+    width:100;
+  }
+.text{
+  width: 100%;
+}
+
+
+.gitpic5{
+    text-align: center;
+    padding-left: 95px;
+  }
 }
