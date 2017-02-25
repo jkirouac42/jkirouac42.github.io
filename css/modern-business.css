@@ -13,7 +13,11 @@ body {
     font-family:'Oxygen',sans-serif;
     background-attachment:fixed;
     font-size:105%;
+    width: 100%;
+    overflow-x: hidden;
 }
+
+
 
 #mycarousel{
   width:100%
@@ -27,21 +31,13 @@ body {
     max-width: 100%;
 }
 
-.well {
-    background-image: url('../white texture.jpg');
-    background-size: cover;
-    background-attachment:fixed;
-}
-
 .greeting{
-  text-align: center;
+  text-align:center;
 }
 
 .img-portfolio {
     margin-bottom: 30px;
-
 }
-
 
 .headpic{
 text-align: center;
@@ -202,20 +198,6 @@ header.carousel .fill {
     font-size: 100px;
 }
 
-/* Pricing Page Styles */
-
-.price {
-    display: block;
-    font-size: 50px;
-    line-height: 50px;
-}
-
-.price sup {
-    top: -20px;
-    left: 2px;
-    font-size: 20px;
-}
-
 .period {
     display: block;
     font-style: italic;
@@ -233,13 +215,18 @@ footer {
 
 /* Responsive Styles */
 
+@media (max-width: 767px) {
+    body > .container { overflow: hidden; } /* fix */
+    body > .container > * { overflow: visible; } /* reset back to normal */
+}
+
 /*@media(max-width:991px) {
     .customer-img,
     .img-related {
         margin-bottom: 30px;
     .container{
           width:100%;
-        }*/
+        }
 @media screen and (max-width: 2560px){
   .container{
     width:100%;
@@ -256,11 +243,20 @@ footer {
 @media screen and (max-width: 425px){
   .container{
     width:100%;
+  }*/
+
+  .well {
+      background-image: url('../white texture.jpg');
+      background-size: cover;
+      background-attachment:fixed;
   }
 
 .foot{
-    font-size:130%;
-    float: right;
+    font-size:225%;
+    text-align:center;
+}
+.foot1{
+  text-align:right;
 }
 
     header.carousel .carousel {
@@ -269,6 +265,7 @@ footer {
 
 .mail{
     font-size:125%;
+    text-align:center;
 }
 hr {
     display: block;
@@ -279,18 +276,20 @@ hr {
     padding: 0;
     opacity:0.4;
 }
-li{
-    display:inline-block;
-    float:right;
+
+
+/*ul{
+  list-style: none;
+  float: right;
 }
+
+li{
+    text-align: right;
+}*/
 .code{
     padding-top:8px;
 }
 
-
-
-.gitpic5{
-    text-align: center;
-    padding-left: 95px;
-  }
+.icons{
+  float:right;
 }
