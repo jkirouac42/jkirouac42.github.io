@@ -47,6 +47,9 @@ header.carousel .fill {
     background-position:center;
     background-size:cover;
 }
+.bar{
+  padding-left: 10px;
+}
 
 /*First Row*/
 .greeting{
@@ -80,8 +83,14 @@ text-align: center;
 
 /*Final Project*/
 
+.sqrpics{
+  text-align: center;
+}
+
 .gitpic5{
   text-align: center;
+  width:85%;
+  padding-top: 25px;
 }
 
 .gitpic5:hover {
@@ -90,11 +99,15 @@ text-align: center;
 
 }
 .gitpic5:active{
-    height:240px;
+
     margin-top:2px;
 }
 
 /*GitHub section*/
+
+.gitrow{
+  padding-top: 25px;
+}
 
 .gitpic1 {
     background-image: url('../mac keyboard2.jpg');
@@ -152,6 +165,7 @@ text-align: center;
 .gitpic3 {
     background-image: url('../MAGIC8BALL.gif');
     height: 250px;
+    background-repeat: no-repeat;
     color: #ffffff;
     text-align: center;
     display: block;
@@ -177,7 +191,6 @@ text-align: center;
 
 .project{
   text-align: center;
-    padding-left:50px;
     padding-bottom:20px;
     color:#808080;
 }
@@ -230,7 +243,21 @@ hr {
 
 /* Responsive Styles */
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     body > .container { overflow: hidden; } /* fix */
     body > .container > * { overflow: visible; } /* reset back to normal */
+    .gitpic5{
+      text-align: center;
+      width:100%;
+    }
+
+
+}
+@media (max-width: 320px) {
+    body > .container { overflow: hidden; } /* fix */
+    body > .container > * { overflow: visible; } /* reset back to normal */
+    .gitpic5{
+      text-align: center;
+      width:100%;
+    }
 }
