@@ -17,8 +17,6 @@ body {
     overflow-x: hidden;
 }
 
-
-
 #mycarousel{
   width:100%
 }
@@ -29,30 +27,6 @@ body {
     line-height: 1;
     margin: 0 auto;
     max-width: 100%;
-}
-
-.greeting{
-  text-align:center;
-}
-
-.img-portfolio {
-    margin-bottom: 30px;
-}
-
-.headpic{
-text-align: center;
-}
-
-.About{
-    float:right;
-    /*margin-left:0px;*/
-}
-
-.img-hover:hover {
-    opacity: 0.8;
-}
-.img{
-  text-align: center;
 }
 
 /* Home Page Carousel */
@@ -74,23 +48,53 @@ header.carousel .fill {
     background-size:cover;
 }
 
+/*First Row*/
+.greeting{
+  text-align:center;
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.headpic{
+text-align: center;
+}
+
+.About{
+    float:right;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+.img{
+  text-align: center;
+}
+
 .text{
     color:#808080;
     text-align: left;
 }
 
 
-.row3{
-    margin-top:25px;
+/*Final Project*/
+
+.gitpic5{
+  text-align: center;
 }
 
-.row2{
-    margin-bottom:25px;
+.gitpic5:hover {
+    color:#ffffff;
+    text-decoration:none;
 
 }
-.row4{
+.gitpic5:active{
     height:240px;
+    margin-top:2px;
 }
+
+/*GitHub section*/
 
 .gitpic1 {
     background-image: url('../mac keyboard2.jpg');
@@ -178,20 +182,6 @@ header.carousel .fill {
     color:#808080;
 }
 
-.gitpic5{
-  text-align: center;
-}
-
-.gitpic5:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic5:active{
-    height:240px;
-    margin-top:2px;
-}
-
 /* 404 Page Styles */
 
 .error-404 {
@@ -208,49 +198,6 @@ header.carousel .fill {
 }
 
 /* Footer Styles */
-
-footer {
-    margin: 50px 0;
-}
-
-/* Responsive Styles */
-
-@media (max-width: 767px) {
-    body > .container { overflow: hidden; } /* fix */
-    body > .container > * { overflow: visible; } /* reset back to normal */
-}
-
-/*@media(max-width:991px) {
-    .customer-img,
-    .img-related {
-        margin-bottom: 30px;
-    .container{
-          width:100%;
-        }
-@media screen and (max-width: 2560px){
-  .container{
-    width:100%;
-  }
-}
-@media screen and (max-width: 1024px){
-  .container{
-    width:100%;
-  }
-@media screen and (max-width: 768px){
-  .container{
-    width:100%;
-  }
-@media screen and (max-width: 425px){
-  .container{
-    width:100%;
-  }*/
-
-  .well {
-      background-image: url('../white texture.jpg');
-      background-size: cover;
-      background-attachment:fixed;
-  }
-
 .foot{
     font-size:225%;
     text-align:center;
@@ -277,19 +224,13 @@ hr {
     opacity:0.4;
 }
 
-
-/*ul{
-  list-style: none;
-  float: right;
-}
-
-li{
-    text-align: right;
-}*/
 .code{
     padding-top:8px;
 }
 
-.icons{
-  float:right;
+/* Responsive Styles */
+
+@media (max-width: 767px) {
+    body > .container { overflow: hidden; } /* fix */
+    body > .container > * { overflow: visible; } /* reset back to normal */
 }
