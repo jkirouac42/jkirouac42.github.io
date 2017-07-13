@@ -71,7 +71,7 @@ text-align: center;
 .img-hover:hover {
     opacity: 0.8;
 }
-.img{
+img{
   text-align: center;
 }
 
@@ -80,6 +80,10 @@ text-align: center;
     text-align: left;
 }
 
+/*latest projects*/
+.maker{
+    height:400px;
+}
 
 /*Final Project*/
 
