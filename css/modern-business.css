@@ -79,6 +79,10 @@ img{
     color:#808080;
     text-align: left;
 }
+.articles{
+    padding: 25px;
+    text-align: center;
+}
 
 /*latest projects*/
 .maker{
