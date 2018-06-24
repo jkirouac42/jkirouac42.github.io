@@ -15,7 +15,12 @@ body {
     font-size:105%;
     width: 100%;
     overflow-x: hidden;
+    
 }
+p{
+    color:#808080;
+}
+
 
 #mycarousel{
   width:100%
@@ -47,12 +52,9 @@ header.carousel .fill {
     background-position:center;
     background-size:cover;
 }
-.bar{
-  padding-left: 10px;
-}
 
 /*First Row*/
-.greeting{
+.center{
   text-align:center;
 }
 
@@ -60,9 +62,6 @@ header.carousel .fill {
     margin-bottom: 30px;
 }
 
-.headpic{
-text-align: center;
-}
 
 .About{
     float:right;
@@ -86,30 +85,8 @@ img{
 
 /*latest projects*/
 .maker{
-   width: 650px;
-   height: 400px;
-}
-
-/*Final Project*/
-
-.sqrpics{
-  text-align: center;
-}
-
-.gitpic5{
-  text-align: center;
-  width:85%;
-  padding-top: 25px;
-}
-
-.gitpic5:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic5:active{
-
-    margin-top:2px;
+   width: 500px;
+   height: 250px;
 }
 
 /*GitHub section*/
@@ -128,22 +105,7 @@ img{
     padding-top:100px;
 
 }
-.gitpic1 div{
-    background-color:rgba(51, 44, 44, 0.49);
-    display:inline;
-    padding:2px;
-}
 
-.gitpic1:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic1:active{
-    height:240px;
-    margin-top:2px;
-
-}
 
 .gitpic2 {
     background-image: url('../Hogwarts_Castle_in_the_Daethly_Hallows3.png');
@@ -154,22 +116,7 @@ img{
     font-size: 200%;
     padding-top: 100px;
 }
-.gitpic2 div{
-    background-color:rgba(51, 44, 44, 0.49);
-    display:inline;
-    padding:2px;
-}
 
-.gitpic2:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic2:active{
-    height:240px;
-    margin-top:2px;
-
-}
 
 .gitpic3 {
     background-image: url('../MAGIC8BALL.gif');
@@ -181,26 +128,11 @@ img{
     font-size: 200%;
     padding-top: 100px;
 }
-.gitpic3 div{
-    background-color:rgba(51, 44, 44, 0.49);
-    display:inline;
-    padding:2px;
-}
 
-.gitpic3:hover {
-    color:#ffffff;
-    text-decoration:none;
-
-}
-.gitpic3:active{
-    height:240px;
-    margin-top:2px;
-
-}
 
 .project{
   text-align: center;
-    padding-bottom:20px;
+    padding:20px;
     color:#808080;
 }
 
