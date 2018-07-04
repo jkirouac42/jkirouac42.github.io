@@ -88,6 +88,7 @@
     var nozzle;
     var uConfig;
     var check = 0;
+    var seriesCheck = 0;
 
     function addEventListener() {
       document.getElementById('series').addEventListener("change", show1, false);
@@ -97,10 +98,18 @@
     }
 
     function show1() {
-      printer = document.getElementById('series').value;
-      document.getElementById('showFil').style.display = "block";
-      console.log(printer);
-      //document.getElementById('printerSelect').innerHTML = "You chose " + printer;
+        if(seriesCheck == 0){
+            printer = document.getElementById('series').value;
+            document.getElementById('showFil').style.display = "block";
+            console.log(printer);
+        }
+        else if(seriesCheck ==1){
+            Reset();
+            printer = document.getElementById('series').value;
+            document.getElementById('showFil').style.display = "block";
+            console.log(printer);
+            seriesCheck = 0;
+        }
 
     }
 
@@ -166,15 +175,16 @@
 
       console.log(nozzle);
 
-      uConfig = (printer+"-" + filament+"-" + nozzle)
+
 
       //document.getElementById('nozSelect').innerHTML = "You chose " + nozzle;
       document.getElementById('button').style.display = "block";
     }
     
     function getfff(){
-      document.getElementById('proSelect').innerHTML = "You have chosen the " + uConfig +" FFF profile.";  
-      console.log(uConfig);
+            uConfig = (printer+"-" + filament+"-" + nozzle)
+            document.getElementById('proSelect').innerHTML = "You have chosen the " + uConfig +" FFF profile.";  
+            console.log(uConfig);
     }
         
       function Reset() {  
