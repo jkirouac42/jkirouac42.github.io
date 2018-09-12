@@ -83,12 +83,12 @@
   <script type="application/javascript">
     window.onload = addEventListener;
 
-    var printer;
-    var filament;
-    var nozzle;
-    var uConfig;
-    var check = 0;
-    var seriesCheck = 0;
+    let printer;
+    let filament;
+    let nozzle;
+    let uConfig;
+    let check = 0;
+    let seriesCheck = 0;
 
     function addEventListener() {
       document.getElementById('series').addEventListener("change", show1, false);
@@ -188,7 +188,7 @@
     }
         
       function Reset() {  
-        var dropDown = document.getElementById("nozzle");  
+        let dropDown = document.getElementById("nozzle");  
         dropDown.selectedIndex = 0;  
     } 
       
