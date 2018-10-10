@@ -1,15 +1,9 @@
-/*!
- * Start Bootstrap - Modern Business (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
 
-/* Global Styles */
 
 html,
 body {
     height: 100%;
-    background-image: url('../white texture.jpg');
+    background-image: url('background_images/white%20texture.jpg');
     font-family:'Oxygen',sans-serif;
     background-attachment:fixed;
     font-size:105%;
@@ -100,7 +94,7 @@ img{
 }
 
 .gitpic1 {
-    background-image: url('../mac keyboard2.jpg');
+    background-image: url('background_images/mac keyboard2.jpg');
     height: 250px;
     color: #ffffff;
     text-align: center;
@@ -112,7 +106,7 @@ img{
 
 
 .gitpic2 {
-    background-image: url('../Hogwarts_Castle_in_the_Daethly_Hallows3.png');
+    background-image: url('background_images/Hogwarts_Castle_in_the_Daethly_Hallows3.png');
     height: 250px;
     color: #ffffff;
     text-align: center;
@@ -123,7 +117,7 @@ img{
 
 
 .gitpic3 {
-    background-image: url('../MAGIC8BALL.gif');
+    background-image: url('background_images/MAGIC8BALL.gif');
     height: 250px;
     background-repeat: no-repeat;
     color: #ffffff;

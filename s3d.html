@@ -10,10 +10,12 @@
 
 <body>
   <header>
-    <h2 class="title">Simplify3D profiles for your M3 printer</h2>
+    <p class="title">This project requires that certain filaments can only be used with specific nozzle sizes.<br> The interesting thing was not just making sure the appropriate nozzle was the only one available, <br>but also making sure that the customer could not accidentally select the wrong one. <br>Change the filament after choosing the nozzle and downloading becomes unavailable.  </p>      
   </header>
+    
+    <h2 class="title">Simplify3D profiles for your M3 printer</h2>
 
-<div class="contianer">
+<div>
   <div class="row">
     <p class="dropdown-category">Printer:</p>
     <ul>
@@ -115,7 +117,7 @@
 
     function show2() {
         filament = document.getElementById('filament').value;
-        
+        document.getElementById('button').style.display = "none";
 
     if(check == 0 && filament == "POLY"){
 
