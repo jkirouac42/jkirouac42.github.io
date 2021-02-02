@@ -1,206 +1,218 @@
-
-
-html,
-body {
-    height: 100%;
-    background-image: url('background_images/white%20texture.jpg');
-    font-family:'Oxygen',sans-serif;
-    background-attachment:fixed;
-    font-size:105%;
-    width: 100%;
-    overflow-x: hidden;
+        html,
+    body {
+        height: 100%;
+        background-image: url('background_images/white%20texture.jpg');
+        font-family: 'Oxygen', sans-serif;
+        background-attachment: fixed;
+        font-size: 105%;
+        width: 100%;
+        overflow-x: hidden;
+    }
     
-}
-p{
-    color:#808080;
-}
-
-
-#mycarousel{
-  width:100%
-}
-
-.carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-    height: auto;
-    line-height: 1;
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-/* Home Page Carousel */
-
-header.carousel {
-    height: 50%;
-}
-
-header.carousel .item,
-header.carousel .item.active,
-header.carousel .carousel-inner {
-    height: 100%;
-}
-
-header.carousel .fill {
-    width: 100%;
-    height: 100%;
-    background-position:center;
-    background-size:cover;
-}
-
-/*First Row*/
-.center{
-  text-align:center;
-}
-
-.img-portfolio {
-    margin-bottom: 30px;
-}
-
-
-.About{
-    float:right;
-}
-
-.img-hover:hover {
-    opacity: 0.8;
-}
-img{
-  text-align: center;
-}
-
-.text{
-    color:#808080;
-    text-align: left;
-}
-.articles{
-    padding: 25px;
-    text-align: center;
-}
-
-/*latest projects*/
-.maker{
-   width: 500px;
-   height: 250px;
-}
-
-.gear{
-    color:#EE7646;
-}
-
-/*GitHub section*/
-
-.gitrow{
-  padding-top: 25px;
-}
-
-.gitpic1 {
-    background-image: url('background_images/mac keyboard2.jpg');
-    height: 250px;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    font-size:200%;
-    padding-top:100px;
-
-}
-
-
-.gitpic2 {
-    background-image: url('background_images/Hogwarts_Castle_in_the_Daethly_Hallows3.png');
-    height: 250px;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    font-size: 200%;
-    padding-top: 100px;
-}
-
-
-.gitpic3 {
-    background-image: url('background_images/MAGIC8BALL.gif');
-    height: 250px;
-    background-repeat: no-repeat;
-    color: #ffffff;
-    text-align: center;
-    display: block;
-    font-size: 200%;
-    padding-top: 100px;
-}
-
-
-.project{
-  text-align: center;
-    padding:10px;
-    color:#808080;
-}
-
-/* 404 Page Styles */
-
-.error-404 {
-    font-size: 100px;
-}
-
-.period {
-    display: block;
-    font-style: italic;
-}
-
-.contact{
-    text-align:center;
-}
-
-/* Footer Styles */
-.foot{
-    font-size:225%;
-    text-align:center;
-}
-.foot1{
-  text-align:right;
-}
-
+    p {
+        color: #808080;
+    }
+    
+    #mycarousel {
+        width: 100%
+    }
+    
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        display: block;
+        height: auto;
+        line-height: 1;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    /* Home Page Carousel */
+    
+    header.carousel {
+        height: 50%;
+    }
+    
+    header.carousel .item,
+    header.carousel .item.active,
+    header.carousel .carousel-inner {
+        height: 100%;
+    }
+    
+    header.carousel .fill {
+        width: 100%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    /*First Row*/
+    
+    .center {
+        text-align: center;
+    }
+    
+    .img-portfolio {
+        margin-bottom: 30px;
+    }
+    
+    .About {
+        float: right;
+    }
+    
+    .img-hover:hover {
+        opacity: 0.8;
+    }
+    
+    img {
+        text-align: center;
+    }
+    
+    .text {
+        color: #808080;
+        text-align: left;
+    }
+    
+    .articles {
+        padding: 25px;
+        text-align: center;
+    }
+    
+    #text-padding-row1 {
+        padding-top: 65px;
+    }
+    /*latest projects*/
+    
+    .maker {
+        width: 500px;
+        height: 250px;
+    }
+    
+    .gear {
+        color: #EE7646;
+    }
+    /*GitHub section*/
+    
+    .gitrow {
+        padding-top: 25px;
+    }
+    
+    .gitpic1 {
+        background-image: url('background_images/mac keyboard2.jpg');
+        height: 250px;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        font-size: 200%;
+        padding-top: 100px;
+    }
+    
+    .gitpic2 {
+        background-image: url('background_images/Hogwarts_Castle_in_the_Daethly_Hallows3.png');
+        height: 250px;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        font-size: 200%;
+        padding-top: 100px;
+    }
+    
+    .gitpic3 {
+        background-image: url('background_images/MAGIC8BALL.gif');
+        height: 250px;
+        background-repeat: no-repeat;
+        color: #ffffff;
+        text-align: center;
+        display: block;
+        font-size: 200%;
+        padding-top: 100px;
+    }
+    
+    .project {
+        text-align: center;
+        padding: 15px;
+        color: #808080;
+    }
+    /* 404 Page Styles */
+    
+    .error-404 {
+        font-size: 100px;
+    }
+    
+    .period {
+        display: block;
+        font-style: italic;
+    }
+    
+    .contact {
+        text-align: center;
+    }
+    /* Footer Styles */
+    
+    .foot {
+        font-size: 225%;
+        text-align: center;
+    }
+    
+    .foot1 {
+        text-align: right;
+    }
+    
     header.carousel .carousel {
         height: 70%;
     }
-
-.mail{
-    font-size:125%;
-    text-align:center;
-}
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 2px solid #a4a4a4;
-    margin: 1em 0;
-    padding: 0;
-    opacity:0.4;
-}
-
-.code{
-    padding-top:8px;
-}
-
-/* Responsive Styles */
-
-@media (max-width: 768px) {
-    body > .container { overflow: hidden; } /* fix */
-    body > .container > * { overflow: visible; } /* reset back to normal */
-    .gitpic5{
-      text-align: center;
-      width:100%;
+    
+    .mail {
+        font-size: 125%;
+        text-align: center;
     }
-    .maker{
-       width: 100%;
-       height: 100%;
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 2px solid #a4a4a4;
+        margin: 1em 0;
+        padding: 0;
+        opacity: 0.4;
     }
-
-
-}
-@media (max-width: 320px) {
-    body > .container { overflow: hidden; } /* fix */
-    body > .container > * { overflow: visible; } /* reset back to normal */
-    .gitpic5{
-      text-align: center;
-      width:100%;
+    
+    .code {
+        padding-top: 8px;
     }
-}
+    /* Responsive Styles */
+    
+    @media (max-width: 768px) {
+        body>.container {
+            overflow: hidden;
+        }
+        /* fix */
+        body>.container>* {
+            overflow: visible;
+        }
+        /* reset back to normal */
+        .gitpic5 {
+            text-align: center;
+            width: 100%;
+        }
+        .maker {
+            width: 100%;
+            height: 100%;
+        }
+        #text-padding-row1 {
+            padding-top: 25px;
+        }
+        @media (max-width: 320px) {
+            body>.container {
+                overflow: hidden;
+            }
+            /* fix */
+            body>.container>* {
+                overflow: visible;
+            }
+            /* reset back to normal */
+            .gitpic5 {
+                text-align: center;
+                width: 100%;
+            }
+            #text-padding-row1 {
+                padding-top: 25px;
+            }
+        }

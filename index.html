@@ -34,69 +34,30 @@
             </div>
         </nav>
     </div>
+    <!--end navigation-->
 
-    <!-- Header Carousel -->
-    <header id="myCarousel" class="carousel slide">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-
-        </ol>
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="fill" style="background-image: url('images/mac keyboard.jpg');" alt="macboard"></div>
-                <div class="carousel-caption">
-                    <h2>Software Engineer</h2>
-                </div>
-            </div>
-            <div class="item">
-                <div class="fill" style="background-image: url('images/computer%20glasses.jpg')"></div>
-                <div class="carousel-caption">
-                    <h2>Web Developer</h2>
-                </div>
-            </div>
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-            <span class="icon-prev"></span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">
-            <span class="icon-next"></span>
-        </a>
-    </header>
-    <!-- Page Content -->
-    <div id="horizontal-scroll"></div>
-    <div class="container-fluid-fluid">
-        <div class="row">
-            <div class="col-lg-12">
-            </div>
-        </div>
-    </div>
-
+    <!--container-->
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-6">
+
+                <div class="center" style="padding-top:45px">
+                    <img src="images/guitar shot.png" style="padding-top:45px" />
+                </div>
                 <h2 class="center">
                     "Hello World" I am Jason Kirouac
                 </h2>
-                <div class="center">
-                    <img src="images/Headshot4.jpg" style="border-radius:100%; padding-top:25px;" />
-                </div>
             </div>
-            <div class="col-md-6">
-                <div>
-                    <div class="panel-heading">
-                        <h4><i class="fa fa-fw fa-check"></i> About Me</h4>
-                    </div>
+            <div class="col-md-6" id="text-padding-row1">
+                <div class="panel-heading">
+                    <h4><i class="fa fa-fw fa-check"></i>About Me</h4>
+                </div>
 
-                    <div class="panel-body text">
-                        <p>
-                            Adept in working in environments with non-negotiable quality, accuracy, and timeline expectations, proven through tenure contributing to an ISO certified manufacturing setting and supervising 10-15 team members to drive compliance. Apply solid work ethic without fail, demonstrating drive for adding value beyond expectations regardless of the role. Possess the maturity, communication skills, and judgment to contribute through independent and team-based projects.
-                        </p>
-                    </div>
+                <div class="panel-body text">
+                    <p>
+                        Adept in working in environments with non-negotiable quality, accuracy, and timeline expectations, proven through tenure contributing to an ISO certified manufacturing setting and supervising 10-15 team members to drive compliance. Apply solid work ethic
+                        without fail, demonstrating drive for adding value beyond expectations regardless of the role. Possess the maturity, communication skills, and judgment to contribute through independent and team-based projects.
+                    </p>
                 </div>
                 <div class="panel-heading">
                     <h4><i class="fa fa-fw fa-wrench"></i>Skills</h4>
@@ -104,15 +65,16 @@
                 <div>
                     <div class="panel-body">
                         <p class="text">
-                            Javascript, jQuery, HTML5, CSS3, Bootstrap, AJAX, JSON, Responsive design / Mobile C#, .NET, Active Server Pages / ASP.net, Object Oriented Programming, Source Control/ Git, Technical writing, Markdown, Public speaking, Training.
+                            Javascript, jQuery, HTML5, CSS3, Bootstrap, AJAX, JSON, Responsive design, Object Oriented Programming, Source Control/ Git, Technical writing, Markdown, Public speaking, Training.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <!--end container-->
 
-
+    <!--container-->
     <div class="container-fluid">
         <div class="col-lg-6">
             <div>
@@ -121,7 +83,7 @@
                 </div>
                 <div class="panel-body">
                     <p class="text">
-                        I am currently working as a Developer and Technical Support Professional at MakerGear, a manufacturer of 3d printers. I provide both software and hardware support for customers via telephone and email. Process all warranty replacement requests as well as follow-up communication. Employ technical expertise in troubleshooting and creating custom firmware and hardware solutions as well as creating online web solutions for customers to find the correct firmware for their particular printer configuration. I am also a forum administrator and contibute technical articles to our Makergear M3 Knowledge Base.
+                        I am currently working as a Freelance Front End Developer and as the Technical Support Manager at MakerGear, a manufacturer of 3d printers.
                     </p>
                 </div>
             </div>
@@ -140,22 +102,26 @@
             </div>
         </div>
     </div>
+    <!--end-->
 
     <!-- Firmware Site -->
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12 center">
+            <div class="col-md-6 center">
                 <h2 class="project">Projects at MakerGear</h2>
 
                 <a target="_blank" rel="noopener noreferrer" href="firmware_index.html">
-                       <img class="maker" src="images/selector_pic.JPG" alt="makerear firmware site">
-                   </a>
-                <p class="center project">The Firmware Selector uses javascript to create a user profile that is then matched to the correct firmware for their configuration. <br>Html, Css, Javascript, Bootstrap, JQuery
-                </p>
+                    <img class="maker" src="images/selector_pic.JPG" alt="makerear firmware site">
+                </a>
+
                 <a target="_blank" rel="noopener noreferrer" href="s3d.html">
                     <h2 class="center gear">Simplify3D Profile Wizard</h2>
                 </a>
-                <p class="center">This is a utility that will be embedded in an article. It conforms with the company styleguide. It is specifically designed using pure <br>HTML, CSS, and Javascript. This project requires that certain filaments can only be used with specific nozzle sizes. <br>The interesting thing was not just making sure the appropriate nozzle was the only one available,but also making sure that the customer could not <br>accidentally select the wrong one. Change the filament after choosing the nozzle and downloading becomes unavailable.(Front end only)</p>
+
+            </div>
+            <div class="col-md-6 center">
+                <h2 class="project">Current Projects</h2>
+                <a href="https://type9designs.github.io/type9.dev.github.io/index.html"><img class="maker" src="images/wwd.png"></a>
             </div>
         </div>
         <div class="row">
@@ -189,14 +155,14 @@
 
     <div class="container-fluid">
         <div class="row center">
-            <div class="col-md-6">
+            <div class="col-md-6 project">
                 <a target="_blank" rel="noopener noreferrer" href="https://wecancodeit.org/portfolio-item/code-academy-safekeepers-qr/" target="_blank">
                     <div>
                         <img class=" maker" src="images/SQRvidpicfix1.png" />
                     </div>
                 </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 project">
                 <a target="_blank" rel="noopener noreferrer" href="https://safekeeperssqr.apphb.com/" target="_blank">
                     <div>
                         <img class=" maker" src="images/safekeeperpicfix1.png" />
@@ -254,8 +220,8 @@
             </div>
             <div class="col-md-6 foot">
                 <a href="http://www.linkedin.com/in/jason-kirouac">
-                      <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                  </a>
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
             </div>
         </div>
     </div>
@@ -264,8 +230,8 @@
             <div class=" row foot">
                 <h3 class=" contact text">Learn more about Boot Camps:</h3>
                 <a href="http://bootcamp.wecancodeit.org/">
-                            <img src="images/wecancodeiticon.png" style="width:45px; height:45px;"/>
-                        </a>
+                    <img src="images/wecancodeiticon.png" style="width:45px; height:45px;" />
+                </a>
             </div>
         </div>
     </div>
